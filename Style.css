@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+padding: 0;
+/*Box sizing can not exceed box from its orignal size  which defined*/
+    box-sizing: border-box;
+      font-family: "Noto Sans Nabataean", sans-serif;
+}
+
+.box{
+    width: 40%;
+    border: 2px solid green;
+}
+.first-child img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.navbar{
+    display: flex;
+    /*Give equal space from left and right around each item*/
+    justify-content: space-around;
+    /*Give equal between items*/
+    justify-content: space-between;
+   justify-content: space-evenly;
+     /*From top to bottom allingment*/
+    align-items: center;
+margin: 10px 20px;
+width: 90vw;
+margin: 10px auto;
+}
+.list-items{
+/*flex box display items from left to right*/
+    display: flex;
+}
+.list-items a{
+    padding: 10px;
+    color: rgb(210, 18, 18);
+    /*Remove underline from links*/
+    text-decoration: none;
+}
+.list-items li{
+    /*Remove bullet points from list items*/
+    list-style: none;
+    /*Add spacing between letters*/
+    letter-spacing: 1px;
+}
+.third-child button{
+    
+width: 100px;
+    background-color: rgb(210, 18, 18);
+    color: rgb(21, 187, 107);
+       border-radius: 0px;
+padding: 10px;
+   
+    cursor: pointer;       
+}
+.third-child button:hover{
+    background-color: rgb(51, 34, 165);
+    color: rgb(134, 7, 244);
+}
+.banner img{
+    width: 100vw;
+    height: 50vh;
+
+}
+/*.outer-box{
+    width: 97vw;
+    height: 90vh;
+    border: 2px solid rgb(72, 43, 203);
+   /*Parent properties which apply on child*/ 
+/*display: flex;
+/*justify-content: center;
+/*allingment of child top to bottom*/
+/*align-items: end;*/   
+/*By default flex direction is row*/
+/*flex-direction:row;*/
+/*flex-direction: column;
+}/*
+.first-child{
+    width: 20vw;
+    height: 30vh;
+    border: 2px solid rgb(43, 203, 43);
+}
+.second-child{
+    width: 20vw;
+    height: 30vh;
+    border: 2px solid rgb(83, 43, 203);
+}
+.third-child{
+    width: 20vw;
+    height: 30vh;
+    border: 2px solid rgb(203, 43, 43);
+}*/
+.products{
+    /*Flexbox work in 2 dimention*/
+    display: flex;
+/*display content down when screen ends*/
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.booski{
+   width:23vw;
+   margin: 25px 0px;
+   cursor:alias;    
+  
+}
+.booski img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+}
+.booski h2{
+    font-size: 20px;
+    color: rgb(210, 18, 18);
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.booski p{
+    font-size:14px;
+    color: rgb(23, 198, 166);
+}
+.Heading{
+text-align: center;
+margin: 20px 0px;
+color: rgb(210, 18, 18);
+font-weight: 700;
+}
+.footer{
+   display: flex;
+   justify-content:space-between;
+   background-color: rgb(210, 18, 18);
+   padding: 10px 20px;
+}
+.footer ul li{
+    list-style: none;
+margin: 10px 0px;
+}
+.fa-facebook{
+    color: rgb(21, 46, 187);
+}
+.fa-instagram{
+    color: rgb(197, 145, 13);
+}
+.fa-twitter{
+    color: rgb(74, 123, 165);
+}
